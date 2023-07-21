@@ -1,0 +1,39 @@
+.admin-edit-search{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.admin-edit-search-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #4D4D4D;
+    margin: 10px;
+}
+.admin-edit-input{
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+}
+.admin-edit-input:focus{
+    outline: none;
+}
+.category-choose{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+.different-category{
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    width: fit-content;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 12px;
+}

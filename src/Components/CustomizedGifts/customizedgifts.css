@@ -1,0 +1,57 @@
+.custom-banner{
+    display: flex;
+    margin: 20px 55px;
+   
+}
+.custom-banner-image{
+    border-radius:8px;
+    margin: 10px;
+    width: 44.5vw;
+}
+.custom-catageroy{
+    margin: 20px 55px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.customized-card{
+    width: 23%;
+}
+.customized-title{
+    margin: 0px;
+    text-align: center;
+    font-size:32px;
+    font-weight: 600;
+}
+.customized-card:hover{
+    box-shadow: 0px 10px 20px #ff4e84;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .custom-banner{
+       flex-direction: column;
+       margin: 10px;
+    }
+    .custom-banner-image{
+        border-radius:8px;
+        margin: 0px;
+        margin-bottom: 10px;
+        width: 95vw;
+    }
+    .custom-catageroy{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    .custom-catageroy-image{
+        margin-bottom: 10px;
+        width: 160px;
+    }
+    .hide-image-on-mobile{
+        display: none;
+    }
+    .customized-card{
+        width: 160px;
+    }
+}

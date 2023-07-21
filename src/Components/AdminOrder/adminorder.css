@@ -1,0 +1,35 @@
+.admin-order-item-image{
+    width: 100%;
+}
+.admin-order-list{
+    display: flex;
+}
+.admin-order{
+    padding-top:100px;
+}
+.admin-navbar{
+    background-color:#ff4e84;
+}
+.admin-order-list{
+    border: 1px solid black;
+    /* align-items: center; */
+}
+.admin-order-list-item{
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+.admin-order-list>p{
+    align-items: center;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.tableHeaderStyle{
+    border:1px solid black;
+    padding:8px;
+    font-weight:bold;
+  }
+
+.tableCellStyle{
+    border: 1px solid black;
+    padding: 8px;
+  }

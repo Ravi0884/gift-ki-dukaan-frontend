@@ -1,0 +1,23 @@
+.user-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+}
+.forgate{
+    text-decoration: none;
+    color: blue;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+@media screen and (max-width: 768px){
+    .admin-login-container{
+        padding:100px 20px;
+    }
+}

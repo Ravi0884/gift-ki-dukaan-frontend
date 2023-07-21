@@ -1,0 +1,12 @@
+.term-container{
+    padding-top:100px;
+}
+.term{
+    width: 70%;
+    margin: auto;
+    padding: 50px 20px;
+    border: 0.3px solid rgb(155, 155, 155);
+}
+.term-title{
+    text-align: center;
+}

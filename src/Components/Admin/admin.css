@@ -1,0 +1,88 @@
+.admin{
+    padding: 100px 30px;
+    text-align: center;
+    background-color:#ff4e84;
+}
+.admin-input{
+    border: none;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 300px;
+}
+.admin-input:focus{
+    outline: none;
+}
+.admin-image{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.admin-input-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px;
+}
+.admin-style-div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.admin-submit-btn{
+    padding:12px;
+    border: none;
+    border-radius: 10px;
+    background-color:#4D4D4D;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.admin-title{
+    font-size:20px;
+    color: white;
+    margin: 10px 0px;
+    float: left;
+}
+.admin-upload{
+    font-size:20px;
+    color: white;
+}
+.admin-navbar{
+    /* position: absolute; */
+    margin: auto;
+    /* width: 80%; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    box-shadow: 2px -2px 20px 0px white;
+}
+.admin-navbar-item{
+    width: fit-content;
+    padding:10px 20px;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.adminlink{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px){
+    .admin-input{
+        width: 300px;
+    }
+    .admin-image{
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    .admin-style-div{
+        width: auto;
+        display: flex;
+        flex-direction:column;
+    }
+    
+}

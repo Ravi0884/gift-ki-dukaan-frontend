@@ -1,0 +1,28 @@
+.admin-selected-image{
+    width: 250px;
+    margin: 20px;
+}
+.admin-selected-product-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.titleee{
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+}
+.inputt{
+    padding:15px;
+    border: none;
+    border-radius: 8px;
+}
+.inputt:focus{
+    outline:none;
+}
+.new-admin-container{
+    margin: 30px;
+}
+.admin-selected-input-desc{
+    height: 100px;
+}
